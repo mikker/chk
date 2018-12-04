@@ -1,0 +1,27 @@
+{
+  "name": "@mikker/chk",
+  "version": "1.0.4",
+  "description": "A checkbox for use with Tachyons",
+  "style": "css/checkbbox.min.css",
+  "main": "css/checkbbox.css",
+  "repository": "mikker/checkbbox",
+  "files": [
+    "css",
+    "src"
+  ],
+  "scripts": {
+    "build:src": "postcss src/chk.css -o css/chk.css -m",
+    "build:minify": "postcss src/chk.css --use cssnano -o css/chk.min.css -m",
+    "dev": "npm run build:src build:minify -- -w",
+    "demo": "live-server --ignore=node_modules"
+  },
+  "author": "mikker",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "live-server": "^1.2.1",
+    "postcss": "^6.0.13",
+    "postcss-cli": "^4.1.1",
+    "postcss-preset-env": "^3.0.2"
+  }
+}
