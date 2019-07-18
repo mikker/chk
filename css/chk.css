@@ -70,20 +70,13 @@
 }
 
 :root {
-  --chk-color: #333;
   --chk-color: var(--dark-gray, #333);
-  --chk-color-checked: #fff;
   --chk-color-checked: var(--white, #fff);
-  --chk-background-color: #eee;
   --chk-background-color: var(--light-gray, #eee);
-  --chk-background-color-checked: #357EDD;
   --chk-background-color-checked: var(--blue, #357EDD);
   --chk-background-color-active: rgba(0, 0, 0, 0.1);
-  --chk-border-radius: .25em;
   --chk-border-radius: var(--spacing-extra-small, .25em);
   --chk-border-width: .125em;
-  --chk-border-color: #999;
   --chk-border-color: var(--silver, #999);
-  --chk-border-color-checked: #357EDD;
   --chk-border-color-checked: var(--blue, #357EDD);
 }

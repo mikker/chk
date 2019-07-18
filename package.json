@@ -18,10 +18,10 @@
   "author": "mikker",
   "license": "MIT",
   "devDependencies": {
-    "cssnano": "^3.10.0",
+    "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss": "^6.0.13",
-    "postcss-cli": "^4.1.1",
-    "postcss-preset-env": "^3.0.2"
+    "postcss": "^7.0.17",
+    "postcss-cli": "^6.1.3",
+    "postcss-preset-env": "^6.7.0"
   }
 }

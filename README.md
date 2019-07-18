@@ -1,25 +1,21 @@
-# @mikker/btn
+# @mikker/chk
 
-**[DEMO and usage](https://mikker.github.io/btn/demo/)**
-
-A `.btn` class for use with [Tachyons](http://tachyons.io).
-
-Even though Tachyons' strictly functional style is great I always find myself re-adding some kind of base button to every project. This is it.
+A `.chk` checkbox class for use with [Tachyons](http://tachyons.io).
 
 ## Usage
 
 Put this in your html **before** you include Tachyons.
 
 ```html
-<link rel='stylesheet' href='https://unpkg.com/@mikker/btn@latest/css/btn.css' />
+<link rel='stylesheet' href='https://unpkg.com/@mikker/chk@latest/css/chk.css' />
 ```
 
 Or add it directly to your project:
 
 ```sh
-npm install @mikker/btn
+npm install @mikker/chk
 # or
-yarn add @mikker/btn
+yarn add @mikker/chk
 ```
 
 Then using postcss or however you'd like
@@ -27,12 +23,12 @@ Then using postcss or however you'd like
 ```css
 @import '~tachyons';
 
-@import '~btn';
+@import '~chk;
 /* or if you want to customize variables */
-@import '~btn/src/btn';
+@import '~chk/src/chk;
 ```
 
-**NB: Be sure to include `btn.css` _before_ `tachyons.css.**
+**NB: Be sure to include `chk.css` _before_ `tachyons.css.**
 
 ## License
 
